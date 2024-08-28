@@ -15,8 +15,8 @@
 ![](https://velog.velcdn.com/images/yso7748/post/69d99b87-cc04-423e-b2e7-a5340395284c/image.PNG)
 
 서버화면입니다.
-콘솔에서 server 파일을 실행시킨 화면입니다 . 
-스켈레톤 코드로 내주신 server 파일은 아예 건드리지 않고 진행했습니다.
+콘솔에서 server.js 파일을 실행시킨 화면입니다 . 
+스켈레톤 코드server.js 파일 그대로 사용하였습니다.
 
 ![](https://velog.velcdn.com/images/yso7748/post/13f36806-d6d0-4e8c-a942-c6fa5986b846/image.PNG)
 
