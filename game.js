@@ -18,8 +18,8 @@ class Player {
 
   stageAbility(stage) {
     this.hp += (stage - 1) * 30;
-    this.att += (stage - 1) * 3;
-    this.maxatt += (stage - 1) * 3;
+    this.att += (stage - 1) * 2;
+    this.maxatt += (stage - 1) * 2;
   }
 }
 class Monster {
@@ -35,8 +35,8 @@ class Monster {
   }
   stageAbility(stage) {
     this.hp += (stage - 1) * 20;
-    this.att += (stage - 1) * 2;
-    this.maxatt += (stage - 1) * 2;
+    this.att += (stage - 1) * 3;
+    this.maxatt += (stage - 1) * 4;
     // 몬스터의 공격
   }
 }
@@ -86,7 +86,7 @@ const battle = async (stage, player, monster) => {
           break;
         case '2':
           const douatt = Math.floor(Math.random() * 101);
-          if (douatt <= 50) {
+          if (douatt <= 60) {
             logs.push(chalk.red('연속공격 성공!'));
             const attP = player.attack();
             monster.hp -= attP;
@@ -98,7 +98,7 @@ const battle = async (stage, player, monster) => {
           break;
         case '3':
           const run = Math.floor(Math.random() * 101);
-          if (run <= 50) {
+          if (run <= 5) {
             monster.hp = 0;
             logs.push(chalk.red('도망에 성공하셨습니다. 다음 스테이지로 이동합니다.'));
           } else {
@@ -110,7 +110,7 @@ const battle = async (stage, player, monster) => {
           break;
         case '4':
           const heal = Math.floor(Math.random() * 101);
-          if (heal <= 50) {
+          if (heal <= 30) {
             player.hp += 20;
             logs.push(chalk.blue('회복에 성공하셨습니다 체력 20을 회복합니다.'));
           } else {
