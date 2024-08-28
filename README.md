@@ -1,7 +1,22 @@
+# 게임 소개
+
+개인과제: 로그라이크 텍스트게임 만들기
+
+## 게임 목표
+
+- **목표** : stage마다 강해지는 monster를 격파하고 총10stage까지 모두 clear하세요.
+
+## 게임 진행
+
+- player는 총 4가지의 선택이 있습니다. 구간별 올바른 선택을 통해 monster를 무찌르세요!
+
+## 서버화면
+
 ![](https://velog.velcdn.com/images/yso7748/post/69d99b87-cc04-423e-b2e7-a5340395284c/image.PNG)
 
-
-콘솔에서 server 파일을 실행시킨 화면입니다 . 스켈레톤 코드로 내주신 server 파일은 아예 건드리지 않고 진행했습니다.
+서버화면입니다.
+콘솔에서 server 파일을 실행시킨 화면입니다 . 
+스켈레톤 코드로 내주신 server 파일은 아예 건드리지 않고 진행했습니다.
 
 ![](https://velog.velcdn.com/images/yso7748/post/13f36806-d6d0-4e8c-a942-c6fa5986b846/image.PNG)
 
